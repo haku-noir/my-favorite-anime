@@ -8,3 +8,25 @@
   writing-mode: vertical-rl;
   list-style-type: none;
 }
+
+.image {
+  width: 700px;
+  height: 800px;
+  background-size: 700px 800px;
+  background-position: center center;
+}
+
+.title {
+  font-size: 40px;
+  display: inline-block;
+}
+
+#image1 {
+  background-image: url(../images/kimetsu.jpg);
+}
+#image2 {
+  background-image: url(../images/yourname.jpg);
+}
+#image3 {
+  background-image: url(../images/sao.jpg);
+}
