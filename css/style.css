@@ -37,6 +37,24 @@
   right: 0;
 }
 
+.tag:hover .title {
+  display: none;
+}
+
+.title2 {
+  display: none;
+}
+
+.tag:hover .title2 {
+  font-size: 60px;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  writing-mode: horizontal-tb;
+}
+
 #image1 {
   background-image: url(../images/kimetsu.jpg);
 }
