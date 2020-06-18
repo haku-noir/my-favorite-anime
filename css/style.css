@@ -41,7 +41,6 @@ body {
 
 .section-a nav .nav-wrapper ul li {
   display: block;
-  text-transform: none;
   font-weight: bold;
   padding: 5px 30px;
 }
@@ -105,8 +104,11 @@ body {
   background-image: url(../images/kimetsu.jpg);
 }
 #image2 {
-  background-image: url(../images/yourname.jpg);
+  background-image: url(../images/onepiece.jpg);
 }
 #image3 {
+  background-image: url(../images/yourname.jpg);
+}
+#image4 {
   background-image: url(../images/sao.jpg);
 }
