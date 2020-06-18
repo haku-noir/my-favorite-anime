@@ -11,9 +11,14 @@
 }
 
 .tag {
-  width: 700px;
+  width: 150px;
   height: 800px;
   position: relative;
+}
+
+.tag:hover {
+  width: 700px;
+  color: red;
 }
 
 .image {
