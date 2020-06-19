@@ -124,7 +124,16 @@ main {
   font-family: 'Montserrat', sans-serif;
 }
 
+p.content {
+  font-size: 20px;
+}
+
+h2.content {
+  font-size: 30px;
+}
+
 .characters {
+  text-align: center;
   margin: 30px auto;
 }
 
