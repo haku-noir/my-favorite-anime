@@ -97,3 +97,37 @@ main {
   writing-mode: horizontal-tb;
   z-index: -1;
 }
+
+.anime-title {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.key-visual {
+  width: 700px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.subject {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.content {
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.characters {
+  margin: 30px auto;
+}
+
+.character {
+  margin: 20px;
+}
