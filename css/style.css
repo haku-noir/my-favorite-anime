@@ -86,6 +86,9 @@ main {
 #image4 {
   background-image: url(../images/sao.jpg);
 }
+#image5 {
+  background-image: url(../images/anime.jpg);
+}
 
 .section-b .bg-words {
   width: 500px;
@@ -142,4 +145,24 @@ h2.content {
 
 .character {
   margin: 20px;
+}
+
+.brandstamp {
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  font-style: normal;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.chevron-down {
+  text-align: center;
+  padding: 220px;
+}
+
+.fas {
+  margin: auto;
+  font-size: 50px;
+  color: white;
 }
