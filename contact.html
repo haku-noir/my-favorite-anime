@@ -3,9 +3,104 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/anime-nav.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/319afa374e.js" crossorigin="anonymous"></script>
+  <title>About</title>
 </head>
 <body>
-  <h1>Contact</h1>
+  <header class="home-header">
+    <nav>
+      <div class="nav-wrapper">
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html" class="select">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="anime-nav">
+      <article>
+        <nav>
+          <div class="nav-wrapper">
+            <a href="index.html"><div class="logo"></div></a>
+            <div class="nav-links">
+              <ul>
+                <li><a href="kimetsu.html">Kimetsu no Yaiba</a></li>
+                <li><a href="onepiece.html">ONE PIECE</a></li>
+                <li><a href="reazero.html">Re:Zero</li>
+                <li><a href="sao.html">SAO</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </article>
+    </section>
+    <section class="section-a">
+      <article>
+        <p class="brandstamp">Contact</p>
+        <p class="chevron-down">
+          <i class="fas fa-chevron-down"></i>
+        </p>
+      </article>
+      <article>
+        <form action="#" method="#">
+          <fieldset>
+            <legend>Perosonal Information</legend>
+            <div class="col">
+              <label for="first_name">
+                First Name:
+                <input type="text" name="first_name" id="first_name" placeholder="Enter your first Name:" required>
+              </label>
+              <label for="last_name">
+                Last Name:
+                <input type="text" name="last_name"  id="last_name"placeholder="Enter your last Name:" required>
+              </label>
+            </div>
+            <br>
+
+            <div class="col">
+              <label for="email">
+                Email:
+                <input type="text" name="email" id="email"  placeholder="Enter your Email:" required>
+              </label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Comments</legend>
+            <textarea name="comments" id="comments" cols="50" rows="7"></textarea>
+          </fieldset>
+          <fieldset>
+            <legend>What is your favorite Anime ?</legend>
+            <div class="col">
+              <select name="anime" id="anime">
+                <option disabled selected>Select your favorite Anime:</option>
+                <option value="kietsu">Kimetsu no Yaiba</option>
+                <option value="kietsu">ONE PIECE</option>
+                <option value="kietsu">Re:Zero − Starting Life in Another World</option>
+                <option value="kietsu">Sowrd Art Online</option>
+              </select>
+            </div>
+            <div class="col">
+              <label for="chara">
+                <input type="text" name="chara" id="chara" placeholder="Enter your favorite Character:" required>
+              </label>
+            </div>
+          </fieldset>
+          <div>
+            <input type="submit" name="submit" id="submit" value="submit">
+          </div>
+        </form>
+      </article>
+    </section>
+  </main>
 </body>
 </html>

@@ -1,0 +1,44 @@
+form {
+  color: white;
+  text-align: center;
+}
+
+legend {
+  font-size: 30px;
+  padding: 20px;
+  text-align: left;
+}
+
+.col {
+  font-size: 25px;
+  margin: 10px;
+}
+
+label {
+  padding: 10px;
+}
+
+input, select {
+  width: 800px;
+  height: 40px;
+  font-size: 25px;
+  color: black;
+  padding: 5px;
+}
+
+#first_name, #last_name {
+  width: 320px
+}
+
+#comments {
+  width: 1000px;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#submit {
+  height: 60px;
+  font-size: 35px;
+  margin: 20px;
+}
