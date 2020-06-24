@@ -1,0 +1,29 @@
+#gallery1 {
+  display: none;
+}
+#gallery2 {
+  display: none;
+}
+#gallery3 {
+  display: none;
+}
+#gallery4 {
+  display: none;
+}
+
+input {
+  display: none;
+}
+
+#label1:checked ~ #gallery1 {
+  display: block;
+}
+#label2:checked ~ #gallery2 {
+  display: block;
+}
+#label3:checked ~ #gallery3 {
+  display: block;
+}
+#label4:checked ~ #gallery4 {
+  display: block;
+}
