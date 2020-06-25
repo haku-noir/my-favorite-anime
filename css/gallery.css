@@ -1,3 +1,11 @@
+legend {
+  text-align: center;
+}
+
+input {
+  display: none;
+}
+
 #gallery1 {
   display: none;
 }
@@ -8,10 +16,6 @@
   display: none;
 }
 #gallery4 {
-  display: none;
-}
-
-input {
   display: none;
 }
 
