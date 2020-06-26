@@ -147,6 +147,23 @@ h2.content {
   margin: 20px;
 }
 
+.kimetsu-chara {
+  width: 240px;
+  height: 340px;
+}
+.onepiece-charas {
+  width: 1000px;
+  height: 600px;
+}
+.rezero-chara {
+  width: 360px;
+  height: 300px;
+}
+.sao-chara {
+  width: 350px;
+  height: 250px;
+}
+
 .brandstamp {
   color: white;
   font-weight: bold;
