@@ -31,3 +31,74 @@ input {
 #label4:checked ~ #gallery4 {
   display: block;
 }
+
+.chara-name {
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#kimetsu-chara1:hover #kimetsu-chara1-name {
+  display: block;
+}
+#kimetsu-chara2:hover #kimetsu-chara2-name {
+  display: block;
+}
+#kimetsu-chara3:hover #kimetsu-chara3-name {
+  display: block;
+}
+#kimetsu-chara4:hover #kimetsu-chara4-name {
+  display: block;
+}
+#kimetsu-chara5:hover #kimetsu-chara5-name {
+  display: block;
+}
+#kimetsu-chara6:hover #kimetsu-chara6-name {
+  display: block;
+}
+
+.onepiece-charas:hover #onepiece-charas-name {
+  display: block;
+}
+
+#rezero-chara1:hover #rezero-chara1-name {
+  display: block;
+}
+#rezero-chara2:hover #rezero-chara2-name {
+  display: block;
+}
+#rezero-chara3:hover #rezero-chara3-name {
+  display: block;
+}
+#rezero-chara4:hover #rezero-chara4-name {
+  display: block;
+}
+#rezero-chara5:hover #rezero-chara5-name {
+  display: block;
+}
+#rezero-chara6:hover #rezero-chara6-name {
+  display: block;
+}
+
+#sao-chara1:hover #sao-chara1-name {
+  display: block;
+}
+#sao-chara2:hover #sao-chara2-name {
+  display: block;
+}
+#sao-chara3:hover #sao-chara3-name {
+  display: block;
+}
+#sao-chara4:hover #sao-chara4-name {
+  display: block;
+}
+#sao-chara5:hover #sao-chara5-name {
+  display: block;
+}
+#sao-chara6:hover #sao-chara6-name {
+  display: block;
+}

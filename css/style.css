@@ -145,6 +145,7 @@ h2.content {
 
 .character {
   margin: 20px;
+  position: relative;
 }
 
 .kimetsu-chara {
