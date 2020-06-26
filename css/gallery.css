@@ -102,3 +102,64 @@ input {
 #sao-chara6:hover #sao-chara6-name {
   display: block;
 }
+
+#kimetsu-chara1:hover #kimetsu-chara1-name:active {
+  display: none;
+}
+#kimetsu-chara2:hover #kimetsu-chara2-name:active {
+  display: none;
+}
+#kimetsu-chara3:hover #kimetsu-chara3-name:active {
+  display: none;
+}
+#kimetsu-chara4:hover #kimetsu-chara4-name:active {
+  display: none;
+}
+#kimetsu-chara5:hover #kimetsu-chara5-name:active {
+  display: none;
+}
+#kimetsu-chara6:hover #kimetsu-chara6-name:active {
+  display: none;
+}
+
+.onepiece-charas:hover #onepiece-charas-name:active {
+  display: none;
+}
+
+#rezero-chara1:hover #rezero-chara1-name:active {
+  display: none;
+}
+#rezero-chara2:hover #rezero-chara2-name:active {
+  display: none;
+}
+#rezero-chara3:hover #rezero-chara3-name:active {
+  display: none;
+}
+#rezero-chara4:hover #rezero-chara4-name:active {
+  display: none;
+}
+#rezero-chara5:hover #rezero-chara5-name:active {
+  display: none;
+}
+#rezero-chara6:hover #rezero-chara6-name:active {
+  display: none;
+}
+
+#sao-chara1:hover #sao-chara1-name:active {
+  display: none;
+}
+#sao-chara2:hover #sao-chara2-name:active {
+  display: none;
+}
+#sao-chara3:hover #sao-chara3-name:active {
+  display: none;
+}
+#sao-chara4:hover #sao-chara4-name:active {
+  display: none;
+}
+#sao-chara5:hover #sao-chara5-name:active {
+  display: none;
+}
+#sao-chara6:hover #sao-chara6-name:active {
+  display: none;
+}
